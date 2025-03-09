@@ -5,7 +5,7 @@ import { getFirestore } from "firebase/firestore";
 
 // Firebase configuration (replace with your own keys from Firebase Console)
 const firebaseConfig = {
-  apiKey: "AIzaSyA4dlchXeq86J7GH9-3zOyVbxu2yf3Zc6o",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "olx-clone-5c11c.firebaseapp.com",
   projectId: "olx-clone-5c11c",
   storageBucket: "olx-clone-5c11c.appspot.com",
